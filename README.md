@@ -78,8 +78,13 @@ Nest is [MIT licensed](LICENSE).
 $ nest g controller products
 ```
 
-## Generate a controller without a new folder
+### Generate a controller without a new folder
 
 ```terminal
   $ nest g co controllers/products --flat
+```
+
+## Generate a service
+```terminal
+  $ nest g s services/products --flat
 ```
