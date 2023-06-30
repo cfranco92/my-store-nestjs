@@ -95,3 +95,15 @@ $ nest g controller products
 ```terminal
   $ nest g pipe common/parse-int
 ```
+
+## Validate parameters with class-validator and mapped-types
+
+```terminal
+  $ npm i class-validator class-transformer
+```
+
+## Reuse dtos with mapped-types and PartialType
+
+```terminal
+  $ npm i @nestjs/mapped-types
+```
