@@ -85,6 +85,13 @@ $ nest g controller products
 ```
 
 ## Generate a service
+
 ```terminal
   $ nest g s services/products --flat
+```
+
+## Generate a pipe
+
+```terminal
+  $ nest g pipe common/parse-int
 ```
